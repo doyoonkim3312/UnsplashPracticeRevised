@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface RetrofitService {
-    @GET("/search/photos?client_id=P9bM_8gbX7t0NVuBbi6tZLKYgNdrdbcZ-rAwpSM4Ke0")
+    @GET("/search/photos?client_id=API_KEY")
     fun loadImages(
         @Query("query") query: String,
         @Query("page")  page: Int,
